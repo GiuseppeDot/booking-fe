@@ -1,9 +1,9 @@
 // HomeCardList.jsx
 import { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
-import HomeCard from "./HomeCard";
+import { Container } from "react-bootstrap";
 
-function HomeCardList() {
+function HomeCard() {
   const [rooms, setRooms] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -63,7 +63,7 @@ function HomeCardList() {
   );
 }
 
-export default HomeCardList;
+export default HomeCard;
 
 // function HomeCard() {
 
